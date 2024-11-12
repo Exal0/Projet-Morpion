@@ -1,0 +1,90 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(165, 6, 6);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: solid rgb(166, 7, 7)  ;
+    margin: 0;
+    padding: 2%;
+}
+body{
+    background-image: url(https://images4.alphacoders.com/131/1315003.jpg); 
+    margin: 5px  ;
+}
+
+
+.style-tableau {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 8px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+  }
+  
+.style-tableau .cellules {
+   cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(165, 6,6 );
+    color: rgb(165, 6, 6);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4)
+  }
+
+  .cellules img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .joueur-style{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    
+  }
+
+
+  .gif-inarius{
+    width: 30%;
+    height: 80vh;
+    display: block;
+    border:solid rgb(165, 6,6 );
+  }
+
+  .photo-inarius{
+    height: 80vh;
+    position: absolute;
+    width: 30%;
+    border:solid rgb(165, 6,6 );
+  }
+
+  .photo-lilith{
+    position: absolute;
+    left: 70%;
+    height: 80vh;
+    width: 30%;
+    border:solid rgb(165, 6,6 );
+   
+  }
+
+  .gif-lilith{
+    display: block;
+    height: 80vh;
+    width: 29vw;
+    left: 70%;
+    border:solid rgb(165, 6,6 );
+  }
+  
+
+  .hidden{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+}
